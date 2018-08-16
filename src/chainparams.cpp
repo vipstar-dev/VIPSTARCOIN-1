@@ -190,12 +190,13 @@ public:
             boost::assign::map_list_of
             ( 0, uint256S("0000d068e1d30f79fb64446137106be9c6ee69a6a722295c131506b1ee09b77c"))
             ( 1000, uint256S("0000966ea0fed775d527fb31902270f01cafdfe53403be884080e2203bd43c74"))
+            ( 184160, uint256S("00000000001c0405e8044f69e60186ad162fc1301caed3165ccfa28b306dbb00"))
         };
 
         chainTxData = ChainTxData{
             // Data as of block 7a9fc529595c3f60b650e60f81d3ba2c2591e32bd811a056e0f889b544fbaa30 (height 446482).
-            1522320640, // * UNIX timestamp of last known number of transactions
-            1017,  // * total number of transactions between genesis and that timestamp
+            1534219387, // * UNIX timestamp of last known number of transactions
+            184160,  // * total number of transactions between genesis and that timestamp
                         //   (the tx=... number in the SetBestChain debug.log lines)
             0         // * estimated number of transactions per second after that timestamp
         };
