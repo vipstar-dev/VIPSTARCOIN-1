@@ -13,7 +13,7 @@
  * for both bitcoind and bitcoin-core, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("jpw_vips_insight");
+const std::string CLIENT_NAME("VIPS_Faucet");
 
 /**
  * Client version number
